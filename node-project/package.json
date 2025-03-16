@@ -1,16 +1,19 @@
 {
-  "name": "project",
+  "name": "node-project",
   "version": "1.0.0",
-  "main": "server.js",
-  "directories": {
-    "test": "test"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "mocha"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2",
+    "supertest": "^6.3.4"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
